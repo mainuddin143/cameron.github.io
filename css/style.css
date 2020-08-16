@@ -864,7 +864,7 @@ button[class*="tcb-"] {
 -------------------------------- */
 
 .blog-banner {
-    background: url(../images/slider/abstract-art-background-633409.jpg);
+    background: url(../images/bg/bg1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -993,15 +993,6 @@ button[class*="tcb-"] {
     overflow: hidden;
 }
 .self_host_area .image_box img {
-    border-radius: 6px;
-}
-
-.advice_area h5 {
-    margin-top: 28px;
-    margin-bottom: 25px;
-}
-
-.advice_area .add_img_box img {
     border-radius: 6px;
 }
 
@@ -1866,6 +1857,15 @@ aside.author_widget img {
     .banner-content h2 {
         font-size: 27px;
     }
+    .tcd-services{
+        margin-top: 150px;
+    }
+    .about-contant{
+        padding-left: 100px;
+    }
+    .pricing-item{
+        margin-bottom: 50px;
+    }
     .banner-content h5 {
         font-size: 16px;
     }
@@ -1985,6 +1985,12 @@ aside.author_widget img {
 @media (min-width: 576px) and (max-width: 767px) {
     .tcd-banner {
         min-height: 720px;
+    }
+    .tcd-services{
+        margin-top: 150px;
+    }
+    .pricing-item{
+        margin-bottom: 50px;
     }
     .banner-content h2 {
         font-size: 20px;
@@ -2122,6 +2128,12 @@ aside.author_widget img {
     .tcd-banner {
         min-height: 720px;
         display: block;
+    }
+    .tcd-services{
+        margin-top: 150px;
+    }
+    .pricing-item{
+        margin-bottom: 50px;
     }
     .banner-content h2 {
         font-size: 20px;
@@ -2277,6 +2289,9 @@ aside.author_widget img {
 @media (max-width: 375px) and (min-width: 320px) {
     .tcd-banner {
         min-height: 720px;
+    }
+    .pricing-item{
+        margin-bottom: 50px;
     }
     .banner-content h2 {
         font-size: 20px;
@@ -2516,9 +2531,7 @@ aside.author_widget img {
     .blog_left_sidebar_item .self_host_area p {
         margin-bottom: 15px;
     }
-    .blog_left_sidebar_item .advice_area h5 {
-        margin-bottom: 18px;
-    }
+
     .blog_left_sidebar_item .comment-form .form-control {
         margin-bottom: 10px;
     }
@@ -2579,9 +2592,6 @@ aside.author_widget img {
     }
     .blog_left_sidebar_item .self_host_area h4 {
         line-height: 28px;
-    }
-    .blog_left_sidebar_item .advice_area h5 {
-        margin-bottom: 18px;
     }
     .blog_left_sidebar_item .comment-form .form-control {
         margin-bottom: 10px;
@@ -2656,13 +2666,6 @@ aside.author_widget img {
         line-height: 26px;
         margin-bottom: 10px;
         font-size: 16px;
-    }
-    .blog_left_sidebar_item .advice_area h5 {
-        margin-bottom: 18px;
-    }
-    .blog_left_sidebar_item .advice_area h4 {
-        font-size: 16px;
-        margin-bottom: 10px;
     }
     .blog_left_sidebar_item .tag_catagorie {
         padding: 17px 15px;
