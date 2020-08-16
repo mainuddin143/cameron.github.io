@@ -2786,15 +2786,7 @@ tcd-header
   padding-bottom: 15px;
   top: -9px;
 }
-.tcd-title h2:after {
-  content: '';
-  position: absolute;
-  width: 70px;
-  height: 3px;
-  background: #fcdf00;
-  left: 0;
-  bottom: 0;
-}
+
 .tcd-title h2 span {
   color: #fcdf00;
 }
