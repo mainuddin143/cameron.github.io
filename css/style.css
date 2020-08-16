@@ -243,7 +243,7 @@ button.owl-next {
 }
 
 .banner-slider.owl-carousel .owl-dots {
-    margin-top: 180px;
+    margin-top: 140px;
 }
 
 /* --------------------------------
@@ -448,15 +448,6 @@ button[class*="tcb-"] {
     font-weight: 600;
     font-family: "Comfortaa", cursive;
 }
-.logo a:before {
-    content: '';
-    position: absolute;
-    height: 3px;
-    width: 57px;
-    background: #fcdf00;
-    right: 0;
-    top: -5px;
-}
 .navbar_fixed .logo {
     line-height: 100px;
 }
@@ -507,7 +498,7 @@ button[class*="tcb-"] {
     06. Banner Area
 ----------------------------------- */
 .tcd-banner {
-    background: url(../images/slider/abstract-art-background-633409.jpg);
+    background: url(../images/bg/bg1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -577,6 +568,8 @@ button[class*="tcb-"] {
 }
 .about-img{
 	box-shadow: -10px 0px 60px 4px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    height: 500px;
 }
 .about-text h5{
 	font-size: 16px;
@@ -626,8 +619,7 @@ button[class*="tcb-"] {
 }
 
 .pricing-item{
-	border: 2px solid rgba(252, 223, 0, 0.47);
-	border-radius: 30px;
+	border-radius: 5px;
 	transition: all linear .3s;	
 	background: ;
 	background-position: right;
@@ -642,12 +634,11 @@ button[class*="tcb-"] {
     left: 0;
     width: 100%;
     height: 100%;
-	border-radius: 30px;
+	border-radius: 5px;
     background: #e6e6e6;
 }
 .pricing-item:hover{
-	box-shadow: 0px 3px 25px 3px rgba(24, 23, 24, 0.44);
-	border: 2px solid #fcdf00;
+	box-shadow: 0px 3px 25px 2px rgba(221, 221, 221, 0.53);/*0 1px 4px rgba(221, 221, 221, 0.53);*/
 	margin-top: -6px;
 }
 .pricing-text{
@@ -659,6 +650,9 @@ button[class*="tcb-"] {
 .pricing-text h3{
 	font-size: 30px;
 	color: #fcdf00;
+    width: 185px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 .pricing-text h5{
 	font-size: 20px;
@@ -668,7 +662,7 @@ button[class*="tcb-"] {
 	border-bottom: 2px solid #fcdf00;
 	line-height: 45px;
 	font-size: 17px;
-	color: #181718
+	color: #777
 }
 .buy-btn{
 	margin-top: 38px;
@@ -679,7 +673,7 @@ button[class*="tcb-"] {
     09. Testimonial Area
 ----------------------------------- */
 .testimonial-area {
-    background: url(../images/bg/advice-advise-advisor-7075.jpg);
+    background: url(../images/bg/clint-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1172,7 +1166,7 @@ button[class*="tcb-"] {
         padding-left: 0px;
     }
     .banner-slider.owl-carousel .owl-dots {
-        margin-top: 142px;
+        margin-top: 85px;
     }
 }
 .comment-form .form-control {
@@ -1577,7 +1571,7 @@ aside.author_widget img {
 -------------------------------- */
 .footer-area {
     background: transparent;
-    min-height: 320px;
+    min-height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;	
@@ -1600,19 +1594,11 @@ aside.author_widget img {
 	position: relative;
 	z-index: 99;
 }
-.footer-area .logo {
-    height: 60px;
-    line-height: 60px;
-}
-.footer-area .logo a {
-    color: #fcdf00;
-    font-size: 20px;
-}
 .footer-area .logo a:before {
     background: #e6e6e6;
 }
 .footer-area .copyright-text p {
-    padding: 20px;
+    padding: 0PX;
     font-weight: 500;
     color: #676767;
 }
@@ -1627,9 +1613,9 @@ aside.author_widget img {
 }
 .footer-area .footer-share li a {
     display: block;
-    margin: 0 10px;
+    margin: 8px 18px;
     height: 50px;
-    width: 50px;
+    width: 30px;
     line-height: 50px;
     border: 1px solid #fcdf00;
     border-radius: 80px;
@@ -1640,7 +1626,7 @@ aside.author_widget img {
 }
 .footer-area .footer-share li a {
     color: #181718;
-    font-size: 20px;
+    font-size: 15px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -2718,4 +2704,163 @@ aside.author_widget img {
     .blog_left_sidebar_item .comment-form .primary-btn {
         padding: 14px 42px;
     }
+}
+
+/*---------------------
+footer start
+-------------------------*/
+.tcd-footer {
+  background: #101010;
+  padding: 100px 0;
+  position: relative;
+}
+.tcd-footer .footer-title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+}
+.tcd-footer .footer-widget {
+  position: relative;
+  z-index: 11;
+}
+.tcd-footer .footer-widget .footer-logo {
+  margin-bottom: 35px;
+}
+.tcd-footer .footer-widget .footer-menu li + li {
+  margin-top: 8px;
+}
+.tcd-footer .footer-widget .footer-menu li a {
+  color: #999;
+  font-weight: 400;
+  font-size: 14px;
+}
+.tcd-footer .footer-widget .footer-menu li a:hover {
+  color: #fff;
+}
+.tcd-copyright {
+  background: #101010;
+  padding: 35px 0 20px;
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+.tcd-copyright .copyright-text p {
+  color: #999;
+  margin: 0;
+  font-weight: 400;
+}
+.tcd-copyright .copyright-text a {
+  color: #999;
+}
+.tcd-copyright .copyright-text a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.tcd-copyright .footer-share {
+  text-align: right;
+}
+.tcd-copyright .footer-share li {
+  display: inline-block;
+  margin: 0 8px;
+}
+.tcd-copyright .footer-share li a {
+  color: #999;
+}
+.tcd-copyright .footer-share li a:hover {
+  color: #fff;
+}
+/* ---------------------------
+    07. Services Section
+------------------------------*/
+/*-------------------------
+tcd-header
+------------------------*/
+.tcd-title {
+  margin: 60px;
+}
+.tcd-title h2 {
+  position: relative;
+  padding-bottom: 15px;
+  top: -9px;
+}
+.tcd-title h2:after {
+  content: '';
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  background: #fcdf00;
+  left: 0;
+  bottom: 0;
+}
+.tcd-title h2 span {
+  color: #fcdf00;
+}
+.tcd-title p {
+  margin: 0 0 5px;
+}
+.tcd-title.white-text h2 {
+  color: #ffffff;
+}
+.tcd-title.white-text h2 span {
+  color: #fcdf00;
+}
+.tcd-title.white-text p {
+  color: #e1e1e1;
+}
+.tcd-title.tcd-title-center {
+  text-align: center;
+}
+.tcd-title.tcd-title-center h2:after {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+/*header end*/
+
+.tcd-services {
+  padding-bottom: 80px;
+}
+.tcd-services .service-item {
+  transition: all 0.3s ease 0s;
+  margin-bottom: -80;
+  padding: 35px 30px 30px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(221, 221, 221, 0.53);
+  text-align: center;
+}
+.tcd-services .service-item .service-icon {
+  margin-bottom: 30px;
+  color: #fcdf00;
+  transition: all 0.5s ease-in 0s;
+}
+.tcd-services .service-item .service-icon i {
+  height: 84px;
+  width: 84px;
+  line-height: 84px;
+  font-size: 34px;
+  text-align: center;
+  background: rgba(153, 153, 153, 0.17);
+  border-radius: 50%;
+}
+.tcd-services .service-item .title {
+  margin-bottom: 15px;
+}
+.tcd-services .service-item .title a {
+  color: #494949;
+}
+.tcd-services .service-item .title a:hover {
+  color: #fcdf00;
+}
+.tcd-services .service-item .description {
+  margin-bottom: 0;
+}
+.tcd-services .service-item:hover {
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+.tcd-services .service-item:hover .service-icon {
+  opacity: 1;
+}
+.tcd-services.tcd-barber-services .service-icon i {
+  font-size: 38px;
 }
