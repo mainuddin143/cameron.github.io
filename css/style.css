@@ -1860,6 +1860,12 @@ aside.author_widget img {
     .tcd-services{
         margin-top: 150px;
     }
+    .blog-item{
+        padding-bottom:50px
+    }
+    .counter-item{
+    	margin-bottom:20px
+    }
     .about-contant{
         padding-left: 100px;
     }
@@ -1991,6 +1997,12 @@ aside.author_widget img {
     }
     .pricing-item{
         margin-bottom: 50px;
+    }
+    .blog-item{
+        padding-bottom:50px
+    }
+    .counter-item{
+    	margin-bottom:20px
     }
     .banner-content h2 {
         font-size: 20px;
@@ -2134,6 +2146,12 @@ aside.author_widget img {
     }
     .pricing-item{
         margin-bottom: 50px;
+    }
+    .blog-item{
+        padding-bottom:50px
+    }
+    .counter-item{
+    	margin-bottom:20px
     }
     .banner-content h2 {
         font-size: 20px;
@@ -2292,6 +2310,12 @@ aside.author_widget img {
     }
     .pricing-item{
         margin-bottom: 50px;
+    }
+    .blog-item{
+        padding-bottom:50px
+    }
+    .counter-item{
+    	margin-bottom:20px
     }
     .banner-content h2 {
         font-size: 20px;
